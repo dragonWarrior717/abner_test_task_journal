@@ -25,8 +25,8 @@ Journal Jumble is a modern, feature-rich journaling application built with Next.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/journal-jumble-app.git
-cd journal-jumble-app
+git clone https://github.com/dragonWarrior717/abner_test_task_journal.git
+cd abner_test_task_journal-jumble-app
 ```
 
 2. Install dependencies:
