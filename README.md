@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Journal Jumble - Your Personal Journaling App
 
-## Getting Started
+Journal Jumble is a modern, feature-rich journaling application built with Next.js and TypeScript. It provides a beautiful and intuitive interface for managing your daily thoughts, moods, and experiences.
 
-First, run the development server:
+## Features
 
+- 📝 Create, edit, and delete journal entries
+- 🎨 Rich text editing with formatting options
+- 🏷️ Tag and mood tracking
+- 🔍 Advanced search functionality
+- 📊 Dashboard view with mood insights
+- 📅 Calendar view for date-based navigation
+- 📱 Responsive design for all devices
+- 🔒 Local storage for data persistence
+- 🎯 Multiple view modes (List, Dashboard, Calendar)
+- 🔄 Real-time search suggestions
+- 📈 Analytics and insights
+
+## Prerequisites
+
+- Node.js 18.x or later
+- npm or yarn package manager
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/journal-jumble-app.git
+cd journal-jumble-app
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Dependencies
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js** - React framework for production
+- **TypeScript** - Type-safe JavaScript
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - Beautiful, accessible components
+- **Lucide Icons** - Beautiful & consistent icons
+- **date-fns** - Modern JavaScript date utility library
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/                 # Main application pages
+├── components/          # Reusable UI components
+│   ├── journal/        # Journal-specific components
+│   ├── layout/         # Layout components
+│   ├── search/         # Search-related components
+│   └── ui/             # UI components
+├── lib/                # Utility functions
+└── types/              # TypeScript type definitions
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Creating a New Entry
+1. Click the "New Entry" button in the sidebar
+2. Fill in the title, content, mood, and tags
+3. Click "Save" to create the entry
 
-## Deploy on Vercel
+### Searching Entries
+1. Click the search icon in the header
+2. Type your search term
+3. Use filters (date range, mood, tags) to refine results
+4. Click on a suggestion or press Enter to search
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Viewing Entries
+- **List View**: Chronological list of all entries
+- **Dashboard View**: Visual overview with mood insights
+- **Calendar View**: Date-based navigation
+- **Detail View**: Full entry view with editing options
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Managing Entries
+- Edit entries by clicking the edit button
+- Delete entries using the delete button
+- Filter entries by mood or tags
+- Sort entries by date, title, or mood
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com/)
+- [Lucide Icons](https://lucide.dev/)
